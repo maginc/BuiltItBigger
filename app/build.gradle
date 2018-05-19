@@ -36,10 +36,7 @@ android {
             dimension "tier"
             applicationIdSuffix ".free"
             minSdkVersion 23
-            applicationId 'fff'
             targetSdkVersion 23
-            testApplicationId 'fff'
-            versionName 'fff'
         }
         paid {
             dimension "tier"
