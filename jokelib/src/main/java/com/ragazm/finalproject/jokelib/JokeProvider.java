@@ -11,7 +11,7 @@ public class JokeProvider {
             "Why do Java developers wear glasses?\n" +
                     "Because they can't C#",
 
-            "‚ÄúI would tell you a UDP joke, but you might not get it‚Äù\n",
+            "ìI would tell you a UDP joke, but you might not get itî\n",
 
             "Programmer A : How much money do I owe you?\n" +
                     "Programmer B : 500 dollars.\n" +
