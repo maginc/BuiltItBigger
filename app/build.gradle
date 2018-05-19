@@ -11,14 +11,6 @@ buildscript {
 }
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'key0'
-            keyPassword 'keykey'
-            storeFile file('D:/-workspace/key.jks')
-            storePassword 'keykey'
-        }
-    }
 
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
@@ -44,7 +36,6 @@ android {
             dimension "tier"
             applicationIdSuffix ".free"
             minSdkVersion 23
-            signingConfig signingConfigs.config
             applicationId 'fff'
             targetSdkVersion 23
             testApplicationId 'fff'
@@ -54,7 +45,6 @@ android {
             dimension "tier"
             applicationIdSuffix ".paid"
             minSdkVersion 23
-            signingConfig signingConfigs.config
         }
     }
 }
